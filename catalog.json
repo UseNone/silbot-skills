@@ -8,27 +8,27 @@
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
       "path": "skills/algorithmic-art/SKILL.md",
       "origin": "anthropics/skills",
-      "revision": "607428016f1505a3f1b88ef872bdd5dbd5ac180fee1f07903ef20ffee3c64a74",
+      "revision": "216727259cb4b3ac78bfd4aae3ee9fc35e5a378ed5c253aeab6907360aa07916",
       "files": [
         {
           "path": "LICENSE.txt",
-          "bytes": 11546,
-          "sha256": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64"
+          "bytes": 11345,
+          "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
         },
         {
           "path": "SKILL.md",
-          "bytes": 20173,
-          "sha256": "6688fc81bb2051d3f234385b50ce160834eb0b0510ed8a5816cc412c1d28c352"
+          "bytes": 19769,
+          "sha256": "3bc4092c09804853186524c826bc0621b940bb6122c05b84496dff95388e6eef"
         },
         {
           "path": "templates/generator_template.js",
-          "bytes": 8048,
-          "sha256": "d4a1d449cbfb92b96009c8f2ad3b1c6cf6215d6ce75d68cf44a1aa7681077e88"
+          "bytes": 7826,
+          "sha256": "9ee0f1da52ef8f7bbfde1917123654880890d43f2d388642d71eab6dd78f94c4"
         },
         {
           "path": "templates/viewer.html",
-          "bytes": 21442,
-          "sha256": "281d5559d06b93ff5c55a69163dd235fa91b8dab52870cd3260e4a9fccd46480"
+          "bytes": 20844,
+          "sha256": "86c79d7ce97d2599ebe4bd9b97fdeb7295c9d3ed61ceeb513cbe1b2bb5d1ce29"
         }
       ]
     },
@@ -38,12 +38,12 @@
       "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
       "path": "skills/canvas-design/SKILL.md",
       "origin": "anthropics/skills",
-      "revision": "ebd3ceb5ca90b27f4a5d221c3a1b8f35ac932318a10032c246d8279d659965e5",
+      "revision": "bf5d4a16ba94d15984083ce47e2cd51168b36729d4cf35d4f8b18aa80003c898",
       "files": [
         {
           "path": "canvas-fonts/ArsenalSC-OFL.txt",
-          "bytes": 4466,
-          "sha256": "7a87a0c469fedc802e3acef550db9a728f621275984b46c6c51e731d7212520a"
+          "bytes": 4373,
+          "sha256": "8ddd61b18ba2c0d0dbe4a691cf5f1a0673f473d02fa0546e67ee88c006aeff6e"
         },
         {
           "path": "canvas-fonts/ArsenalSC-Regular.ttf",
@@ -57,8 +57,8 @@
         },
         {
           "path": "canvas-fonts/BigShoulders-OFL.txt",
-          "bytes": 4490,
-          "sha256": "9ce6294be745093338c51e62d7efaddbf32b90ac9a7ffde8a12ce92e0413fe25"
+          "bytes": 4397,
+          "sha256": "fbc746aabf0eb1847dfd92e2efc4596d79fa897d60b8e64062a22f585508fb3f"
         },
         {
           "path": "canvas-fonts/BigShoulders-Regular.ttf",
@@ -67,8 +67,8 @@
         },
         {
           "path": "canvas-fonts/Boldonse-OFL.txt",
-          "bytes": 4483,
-          "sha256": "f5fe122e06e26a0277b07d6f6d171a60156aef5fe138281538498cee767b6bd4"
+          "bytes": 4390,
+          "sha256": "45cc82ab4032273c0924025ffcf8f0665a68e1a5955e3f7247e5daf1deeb1326"
         },
         {
           "path": "canvas-fonts/Boldonse-Regular.ttf",
@@ -82,8 +82,8 @@
         },
         {
           "path": "canvas-fonts/BricolageGrotesque-OFL.txt",
-          "bytes": 4496,
-          "sha256": "a093964b3ca71526ae129d0d5f39bc9dba905ae5ebeb72d741bb0d4ed2d5d5b0"
+          "bytes": 4403,
+          "sha256": "0e4f4eb8534bc66a76aca13dd19c1f9731b2008866b29ccff182b764649df9b4"
         },
         {
           "path": "canvas-fonts/BricolageGrotesque-Regular.ttf",
@@ -102,8 +102,8 @@
         },
         {
           "path": "canvas-fonts/CrimsonPro-OFL.txt",
-          "bytes": 4487,
-          "sha256": "fd2bc485bc16b876b09f97ab0a218092c0c78f533be0d7750aca9e9df9e3ab7b"
+          "bytes": 4394,
+          "sha256": "35680d14547b6748b6f362a052a46d22764ce5eccf96e18b74f567bb2ee58114"
         },
         {
           "path": "canvas-fonts/CrimsonPro-Regular.ttf",
@@ -112,8 +112,8 @@
         },
         {
           "path": "canvas-fonts/DMMono-OFL.txt",
-          "bytes": 4485,
-          "sha256": "0f2c192cfa63e591f680392d1792ff06e52a76ef81f70841ccb0b36c11b61826"
+          "bytes": 4392,
+          "sha256": "bfe7842fcb88323e2981e24710c25202677385a8c75fb6a87217b275a0247ae3"
         },
         {
           "path": "canvas-fonts/DMMono-Regular.ttf",
@@ -122,8 +122,8 @@
         },
         {
           "path": "canvas-fonts/EricaOne-OFL.txt",
-          "bytes": 4504,
-          "sha256": "cb7900ec9382f84f51ec5c79b6cddd9c17892bc3a2e90bfb74d6d710bdabf5fd"
+          "bytes": 4410,
+          "sha256": "e0de629968b52255548d5fafcf30b24ff9edae0eda362380755a75816404d0fa"
         },
         {
           "path": "canvas-fonts/EricaOne-Regular.ttf",
@@ -137,8 +137,8 @@
         },
         {
           "path": "canvas-fonts/GeistMono-OFL.txt",
-          "bytes": 4481,
-          "sha256": "0acca17d633ecc7180aa12d8a60a95889d87a439cb83884597ff278046743dcb"
+          "bytes": 4388,
+          "sha256": "6a873c900f584109b13ae0aaf81d6e3cf0a68751a216b03f7b6c68d547057bb4"
         },
         {
           "path": "canvas-fonts/GeistMono-Regular.ttf",
@@ -147,8 +147,8 @@
         },
         {
           "path": "canvas-fonts/Gloock-OFL.txt",
-          "bytes": 4474,
-          "sha256": "e5a3c37f36d4484c7818fad6953828f74168cc1218421c913006c84fd4d14c14"
+          "bytes": 4381,
+          "sha256": "c0a3f3125ac491ef3d1f09f401be4834c646562f647e44f2bcbc49f0466c656d"
         },
         {
           "path": "canvas-fonts/Gloock-Regular.ttf",
@@ -162,8 +162,8 @@
         },
         {
           "path": "canvas-fonts/IBMPlexMono-OFL.txt",
-          "bytes": 4456,
-          "sha256": "0fc74640fdcd67c036e1fced58d7e4478897a333cd92b981115a3e324337577f"
+          "bytes": 4363,
+          "sha256": "5294ce778857e1eb02e830b6ab06435537d38f43055327e73d03a2d4d57d5123"
         },
         {
           "path": "canvas-fonts/IBMPlexMono-Regular.ttf",
@@ -207,8 +207,8 @@
         },
         {
           "path": "canvas-fonts/InstrumentSans-OFL.txt",
-          "bytes": 4496,
-          "sha256": "6c98bea402c5bfed70c42c0d6fcc6a31ea793979537d1becf4a5dae65a26a34f"
+          "bytes": 4403,
+          "sha256": "bf4dc6d13a8cccd4807133c77a1ee9619a16b92cb23322258725ab6731c2f6e5"
         },
         {
           "path": "canvas-fonts/InstrumentSans-Regular.ttf",
@@ -227,8 +227,8 @@
         },
         {
           "path": "canvas-fonts/Italiana-OFL.txt",
-          "bytes": 4487,
-          "sha256": "3edefd97c07108eb7151fa6ed58fc7ce79bb697fc1fc50a1da25398d54cdf588"
+          "bytes": 4394,
+          "sha256": "8373b11312ace78c4cec2e8f9f6aa9f2330601107dac7bcf899c6f2dbd40c5a5"
         },
         {
           "path": "canvas-fonts/Italiana-Regular.ttf",
@@ -242,8 +242,8 @@
         },
         {
           "path": "canvas-fonts/JetBrainsMono-OFL.txt",
-          "bytes": 4492,
-          "sha256": "4d9694c4844a13ea377458c3f98c90d2bf83d3c214612dcae2b7808406520708"
+          "bytes": 4399,
+          "sha256": "a76abf002c49097d146e86740a3105a5d00450b1592e820a1109a8c5680cd697"
         },
         {
           "path": "canvas-fonts/JetBrainsMono-Regular.ttf",
@@ -262,13 +262,13 @@
         },
         {
           "path": "canvas-fonts/Jura-OFL.txt",
-          "bytes": 4473,
-          "sha256": "707f27f18ff5c786e2b41f44873201b34c3a3694ca6ea4aa24cbb52cbd46fbc2"
+          "bytes": 4380,
+          "sha256": "eaf9bdb675f6d87e5feb88199ab3ea581d3bd2082f426e384fa9c394576d7260"
         },
         {
           "path": "canvas-fonts/LibreBaskerville-OFL.txt",
-          "bytes": 4542,
-          "sha256": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd"
+          "bytes": 4449,
+          "sha256": "55959eef5b0c3b2e3c1c7631b8ff0f9447d75de20f29cfa7db5bcfb026763343"
         },
         {
           "path": "canvas-fonts/LibreBaskerville-Regular.ttf",
@@ -292,8 +292,8 @@
         },
         {
           "path": "canvas-fonts/Lora-OFL.txt",
-          "bytes": 4516,
-          "sha256": "41cf75bf229a1435b7df209ac7419622516eff7e8cab79260fb0fb9b1cc8ced2"
+          "bytes": 4423,
+          "sha256": "62e37a82d3f1ef2a70712885fa8b3144b65fd144d8e748d6196b690a354d792c"
         },
         {
           "path": "canvas-fonts/Lora-Regular.ttf",
@@ -307,8 +307,8 @@
         },
         {
           "path": "canvas-fonts/NationalPark-OFL.txt",
-          "bytes": 4492,
-          "sha256": "29618a33c9871519e77e75f7db9df6ba894b9f2208d97975ba419d3f6e46d9f7"
+          "bytes": 4399,
+          "sha256": "81c6c71d83b5b45d7344f96df12bb4a2477a5b092a9144757ee1d0f50f855175"
         },
         {
           "path": "canvas-fonts/NationalPark-Regular.ttf",
@@ -317,8 +317,8 @@
         },
         {
           "path": "canvas-fonts/NothingYouCouldDo-OFL.txt",
-          "bytes": 4456,
-          "sha256": "179d94a7a42ce98cc0ef2bfad604b77e9b0a9cc03e6a9ae8844844e3028d04b2"
+          "bytes": 4363,
+          "sha256": "7c2a6970584ddad04919816163746f83b378078015899b18468b40f05e9ce128"
         },
         {
           "path": "canvas-fonts/NothingYouCouldDo-Regular.ttf",
@@ -332,8 +332,8 @@
         },
         {
           "path": "canvas-fonts/Outfit-OFL.txt",
-          "bytes": 4482,
-          "sha256": "8fc6af31312082959cc8297b30e04d94ff457faecc9fb0aeeb8906bf448f20e6"
+          "bytes": 4389,
+          "sha256": "1945b62cd76da9a3051a1660dde72afaa64ffc2666d30e7a78356d651653ba2f"
         },
         {
           "path": "canvas-fonts/Outfit-Regular.ttf",
@@ -347,13 +347,13 @@
         },
         {
           "path": "canvas-fonts/PixelifySans-OFL.txt",
-          "bytes": 4488,
-          "sha256": "34b5d28aebcb26adae3e1fb74842b5c6a3915fb721036ea2b3444f18954331dd"
+          "bytes": 4395,
+          "sha256": "7f54d1d9f1ae1ba9f2722f978145f90324fea34ca3c2304b3a29cfa96ac6037e"
         },
         {
           "path": "canvas-fonts/PoiretOne-OFL.txt",
-          "bytes": 4459,
-          "sha256": "26f2bc9434e40e75d2378fd9a8125c16f5ee1d0e7bbdf14daabd7109f7d87a6d"
+          "bytes": 4366,
+          "sha256": "2eaf541f7eb8b512e4c757a5212060abf5b6edfef230e9d7640bf736b315c33a"
         },
         {
           "path": "canvas-fonts/PoiretOne-Regular.ttf",
@@ -367,8 +367,8 @@
         },
         {
           "path": "canvas-fonts/RedHatMono-OFL.txt",
-          "bytes": 4487,
-          "sha256": "3f7ee3287416a0a1b2f90f4230306098268efa63504fa12d6436acd994a69b68"
+          "bytes": 4394,
+          "sha256": "435fbfb7e66988b2a06686a4cb966faec733f35d8fe100a1601573c27f3e0bb8"
         },
         {
           "path": "canvas-fonts/RedHatMono-Regular.ttf",
@@ -377,8 +377,8 @@
         },
         {
           "path": "canvas-fonts/Silkscreen-OFL.txt",
-          "bytes": 4487,
-          "sha256": "b841352f14bfc3e79b872ede3c05aa49ba816218a53cb2a07c6624ccf38a2ea1"
+          "bytes": 4394,
+          "sha256": "6b849745119bbe85ec01fd080c9cd50234da9f52ac6e48b55d1a424a0c4d7ca9"
         },
         {
           "path": "canvas-fonts/Silkscreen-Regular.ttf",
@@ -392,8 +392,8 @@
         },
         {
           "path": "canvas-fonts/SmoochSans-OFL.txt",
-          "bytes": 4489,
-          "sha256": "ed57f8cd1429e35d68ad4b3edb44b142e2245467a2f537bf05044ee015447438"
+          "bytes": 4396,
+          "sha256": "74c9c4eb88e891483e1b7bc54780b452cbf4f4df66d4e71881d7569aa2130749"
         },
         {
           "path": "canvas-fonts/Tektur-Medium.ttf",
@@ -402,8 +402,8 @@
         },
         {
           "path": "canvas-fonts/Tektur-OFL.txt",
-          "bytes": 4478,
-          "sha256": "360ef927fe156e4c7d8d7b1900375594f7db95fc3e04c1f0ce8cbbc55bc76eb8"
+          "bytes": 4385,
+          "sha256": "3f1466cb5438f31782eeb6e895f3a655bc4d090e24263e331f555357d1cb734e"
         },
         {
           "path": "canvas-fonts/Tektur-Regular.ttf",
@@ -427,8 +427,8 @@
         },
         {
           "path": "canvas-fonts/WorkSans-OFL.txt",
-          "bytes": 4490,
-          "sha256": "4f8cbaf2a5494148a8064db9b5eb7c23a0f9098683244803b11c0eec857b81a9"
+          "bytes": 4397,
+          "sha256": "ace8c22a3326318b54e67c3691857929634205533f454a70ef5a3473ddb2e2ba"
         },
         {
           "path": "canvas-fonts/WorkSans-Regular.ttf",
@@ -437,8 +437,8 @@
         },
         {
           "path": "canvas-fonts/YoungSerif-OFL.txt",
-          "bytes": 4491,
-          "sha256": "0f15fb928a39deedb71e9198dbeece4403f827561b0cdbcff450aacbcf772212"
+          "bytes": 4398,
+          "sha256": "cdcb8039606b40a027a6d24586ec62d5fe29c701343d82a048c829cb28a3dd28"
         },
         {
           "path": "canvas-fonts/YoungSerif-Regular.ttf",
@@ -447,13 +447,13 @@
         },
         {
           "path": "LICENSE.txt",
-          "bytes": 11546,
-          "sha256": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64"
+          "bytes": 11345,
+          "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
         },
         {
           "path": "SKILL.md",
-          "bytes": 12068,
-          "sha256": "7bebc4a2cf108c55c1e52bb96b1050dc1ab2f9492e9c2d43f1fe57f826728f4d"
+          "bytes": 11939,
+          "sha256": "a1f288079624402f30682753c1d43920b6664785698d21d3e7aa197450a6448b"
         }
       ]
     },
@@ -463,12 +463,12 @@
       "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
       "path": "skills/doc-coauthoring/SKILL.md",
       "origin": "anthropics/skills",
-      "revision": "8a0b46ce6666e5528f51bd9130df25be92aaf3a05f31b09447452abe5e87b6af",
+      "revision": "3722adafeadb29d7d1ae8bb49bece8a9c19e3fa5906606f45701c6835f4801d8",
       "files": [
         {
           "path": "SKILL.md",
-          "bytes": 16190,
-          "sha256": "acb9b89b228fb818ffe2f464e40b1cdbf6948b50ceeeb7378f0e5b9d78c996ad"
+          "bytes": 15815,
+          "sha256": "2e47d78846faeea4a56e9809c52700087a15a2155a3f293a3efbaded81398ef4"
         }
       ]
     },
@@ -478,17 +478,17 @@
       "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
       "path": "skills/frontend-design/SKILL.md",
       "origin": "anthropics/skills",
-      "revision": "65f0b5b24556d7efa4cf65ae18b4adac9d49c1d1d87f9f687342b53876fc2073",
+      "revision": "7d172d2acc3344fa0522428e11a4fe50b876514c37da465d057ec158c61ab8bc",
       "files": [
         {
           "path": "LICENSE.txt",
-          "bytes": 10351,
-          "sha256": "eb3d7b5485466acbd81f2b496f595ab637d2792e268206b27d99e793bdb67549"
+          "bytes": 10174,
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
         },
         {
           "path": "SKILL.md",
-          "bytes": 9461,
-          "sha256": "b8009ae690dfa69edc7f08bb8715f32db8817112cfa4388741dbaf876c237df8"
+          "bytes": 9390,
+          "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3"
         }
       ]
     },
@@ -498,37 +498,37 @@
       "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
       "path": "skills/internal-comms/SKILL.md",
       "origin": "anthropics/skills",
-      "revision": "9732c4fdd719fca8a739423af891efb35bf98868d54bd2846f490aad2b290765",
+      "revision": "76970306905aa9f05aaef836660291949e49dc7f5bbd00c755e440f86b5db39d",
       "files": [
         {
           "path": "examples/3p-updates.md",
-          "bytes": 3320,
-          "sha256": "5ea581bce7bc7030e5d9b5f65c192fd9aa05db8460837c485057ee9ad1b4e736"
+          "bytes": 3274,
+          "sha256": "087e4363c0f3513728a7e695eeb9ead5c3ecd12a4681b59340691180e65b68fc"
         },
         {
           "path": "examples/company-newsletter.md",
-          "bytes": 3360,
-          "sha256": "408275de740b7a849df557abd2136dc4f689c9aaa35a76fe5549a745bcc1df09"
+          "bytes": 3295,
+          "sha256": "30f81cfbdb03858a006169c72169024089c7c5d3d32611d337782da4f38c86b5"
         },
         {
           "path": "examples/faq-answers.md",
-          "bytes": 2395,
-          "sha256": "02808d0a5dc3c0fe03c6b03a4e291fbda51dfc970a91cc4f28a82faa62d16251"
+          "bytes": 2366,
+          "sha256": "5ecd3356cd6666937f2ebefa753253edfdbdca15e368d07baf398bfcced72484"
         },
         {
           "path": "examples/general-comms.md",
-          "bytes": 617,
-          "sha256": "c30fa95415e6b03b7501b9dcfbf4aa5a37494408c3b7bd8ae2a72e750dc456d2"
+          "bytes": 602,
+          "sha256": "4d3a4bb198a77626bcf018e96b2b45a2dbabed172d4ade0fcd70d23ae8a47a47"
         },
         {
           "path": "LICENSE.txt",
-          "bytes": 11546,
-          "sha256": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64"
+          "bytes": 11345,
+          "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
         },
         {
           "path": "SKILL.md",
-          "bytes": 1543,
-          "sha256": "c5c061ab25b33fab2358a9be53a5cc0d528ec7c3e8a29285a041ffc95d0d8947"
+          "bytes": 1511,
+          "sha256": "067b7587a344a928fc6534ef66b1bcd591fc7c26d207ea7ca3334aeb678d6475"
         }
       ]
     },
@@ -553,12 +553,12 @@
       "description": "Transformar uma demonstração processada pelo SilBot em um procedimento reutilizável e persistente.",
       "path": "skills/learn-from-demonstration/SKILL.md",
       "origin": "silbot",
-      "revision": "d4b2a80d6e4b36347fb14703ec2424cc8a9fba965528c690a492808b1b93c48e",
+      "revision": "f6fec3f0ff13d76bc6390343cbca4e3b7fbb712637a86f38393c57139e131bf3",
       "files": [
         {
           "path": "SKILL.md",
-          "bytes": 5945,
-          "sha256": "18543a00369141daf245bc03061ba5db8604d7335a8bc64703cde4842096297b"
+          "bytes": 5881,
+          "sha256": "90c63586dce600067fdb3e3cc78332274f28a4a54924088154610c843baf2df8"
         }
       ]
     },
@@ -568,62 +568,62 @@
       "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
       "path": "skills/mcp-builder/SKILL.md",
       "origin": "anthropics/skills",
-      "revision": "1bf89c3814ced62d9340c64aae104539a70fd51ce9d72502452a6e6ca456937e",
+      "revision": "bf0a5550b206aa6c77a9ddc427b25f29229c243f091aaf3aa87c4df27aca8d29",
       "files": [
         {
           "path": "LICENSE.txt",
-          "bytes": 11546,
-          "sha256": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64"
+          "bytes": 11345,
+          "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
         },
         {
           "path": "reference/evaluation.md",
-          "bytes": 22264,
-          "sha256": "830d9a3a69c9d6d01b638ce3497e0a7680b1d422d318929181a101f7d3816983"
+          "bytes": 21663,
+          "sha256": "8c99479f8a2d22a636c38e274537aac3610879e26f34e0709825077c4576f427"
         },
         {
           "path": "reference/mcp_best_practices.md",
-          "bytes": 7579,
-          "sha256": "900b5c9ec725b594ea04270d27c33cc51a0c8e866f5cb7ad4f57fb48d3838380"
+          "bytes": 7330,
+          "sha256": "80fb4369a349447cf18ecdd7494fe7938b6065377e9f08c077cec411093a3007"
         },
         {
           "path": "reference/node_mcp_server.md",
-          "bytes": 29716,
-          "sha256": "f03d7eb0be6849a8f4014e61463a3827f1e3efc38569c2cfc456a3bf69bacede"
+          "bytes": 28745,
+          "sha256": "ee3c95d812e450f6168b734390d0c9ef6f8ebeef041d73a122c972dfbd4d476a"
         },
         {
           "path": "reference/node_mcp_server_v2.md",
-          "bytes": 35918,
-          "sha256": "8f7429c82e9883cd8cad964dceca5d1d5aa06c3a92b2a1f27b8392dddbe9c514"
+          "bytes": 35171,
+          "sha256": "49b2fe48f33910b743ae3a56353fffa5d5f252f531053f24f2da4e5914c0d3aa"
         },
         {
           "path": "reference/python_mcp_server.md",
-          "bytes": 25817,
-          "sha256": "890a64d0949e5b40c639682cda46661311ab818fc03976884ce46f00e2eff462"
+          "bytes": 25099,
+          "sha256": "2da52f77e675191014ca2e146a4b95aa04d0ca7dd7e2b100322df15ade685e80"
         },
         {
           "path": "scripts/connections.py",
-          "bytes": 5026,
-          "sha256": "9db2f1ff6442010b131817c1ec127dcf29949c787e7d7948049145c0a39627a9"
+          "bytes": 4875,
+          "sha256": "9403668a2041568772082a8b334122c1f88daf0541fb393af4522d0094a47a6e"
         },
         {
           "path": "scripts/evaluation.py",
-          "bytes": 12952,
-          "sha256": "0797ae0f3c50bfa5d7281ebc8bc936ac89f33450aca6a36b95c4862ca8c21482"
+          "bytes": 12579,
+          "sha256": "49ed1d17cdce5da101b210197740713f49b935c29d4f339542a14b132658e6f7"
         },
         {
           "path": "scripts/example_evaluation.xml",
-          "bytes": 1216,
-          "sha256": "4df64ca67ca193021364d4d148997b8821f392353dab73c852fa41cfaa822048"
+          "bytes": 1194,
+          "sha256": "9272b348ddcc4b06ba562367ccd0770e018158c0068ac5116d5e34aaeff8777a"
         },
         {
           "path": "scripts/requirements.txt",
-          "bytes": 31,
-          "sha256": "f53f4d884919bbc75bc971f62d196c6f0a443eccf2539f534fd2b66e0618c49d"
+          "bytes": 29,
+          "sha256": "d5d7558b2368ecea9dfeed7d1fbc71ee9e0750bebd1282faa527d528a344c3c7"
         },
         {
           "path": "SKILL.md",
-          "bytes": 11381,
-          "sha256": "323a42dcf2bd27b8dcd8e903f060414643c65987d77fce5af13f9357a4fba49d"
+          "bytes": 11129,
+          "sha256": "b483b56d6673134497e45489c317f26ae0f1429c194db0297e43073e17e6748c"
         }
       ]
     },
@@ -633,47 +633,47 @@
       "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
       "path": "skills/skill-creator/SKILL.md",
       "origin": "anthropics/skills",
-      "revision": "fdd63f04c16e0bee8a861ad9ab8acacb167d60495058a48ed1549ff49642fb0d",
+      "revision": "9551f036c94f7ca348c950e4d44b1609f3571bca3aebe8dff652db50fbb386b3",
       "files": [
         {
           "path": "agents/analyzer.md",
-          "bytes": 10650,
-          "sha256": "8ccce0d9755f7684277870e791ffb643b026d5dd4508e5c1bdc8dfec9e8532b5"
+          "bytes": 10376,
+          "sha256": "bf68f4cac5a56c673a928c2e6d619586c5b93ea364026ab37547772cb45a663a"
         },
         {
           "path": "agents/comparator.md",
-          "bytes": 7489,
-          "sha256": "ee90af43eb0dbe2fdadbb96d01f9776f387ed5c529ce083c22b8bec4e3ae10d3"
+          "bytes": 7287,
+          "sha256": "fe1fc9787c495d864c5d6eada47396478572325fde1b33a96d78bf4b849b7a3e"
         },
         {
           "path": "agents/grader.md",
-          "bytes": 9272,
-          "sha256": "6ec1c6950fcafa3e00d5e845b2498c5ea3e8f7f012bd9c6abad25425f3ee619c"
+          "bytes": 9049,
+          "sha256": "57134da0c1a4eea33fbd74a1c9c44aa814f07d6bc64de303edb586f941e5d21a"
         },
         {
           "path": "assets/eval_review.html",
-          "bytes": 7204,
-          "sha256": "2cc6071b35ac897b17cf0388ce240fd959396f35f95a1f7d3e74a248dd060d0f"
+          "bytes": 7058,
+          "sha256": "ce477dcc74dc1c0d1d3352646a79167b5a63634e936b1019160025065974e452"
         },
         {
           "path": "eval-viewer/generate_review.py",
-          "bytes": 16836,
-          "sha256": "44d97a35be977331b13b04932927b3beb285862a173f0f15dd052d4f31de5c76"
+          "bytes": 16365,
+          "sha256": "fc9d1b9243fe5ab6012ebd579bd76d0035de1b79fd3b969de114defab26478fb"
         },
         {
           "path": "eval-viewer/viewer.html",
-          "bytes": 46323,
-          "sha256": "46abd4e19e482b4aeebea24b135c2d88fb122a63346dbeab7fcecd83828a826d"
+          "bytes": 44998,
+          "sha256": "a53213426ee1100441d701a3a0d49cda7a842f992d2c36463f4d3cc0258575fa"
         },
         {
           "path": "LICENSE.txt",
-          "bytes": 11546,
-          "sha256": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64"
+          "bytes": 11345,
+          "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
         },
         {
           "path": "references/schemas.md",
-          "bytes": 12491,
-          "sha256": "5ef5fd3c1ac7baae965b5bda6b4f2cf6a191a2d712c7fef2a12dde84573b4833"
+          "bytes": 12061,
+          "sha256": "8e8876180a8989b406a4d3edddf875b04cdfd5805cc8616686d552b11ce4455f"
         },
         {
           "path": "scripts/__init__.py",
@@ -682,48 +682,48 @@
         },
         {
           "path": "scripts/aggregate_benchmark.py",
-          "bytes": 14787,
-          "sha256": "16c5a53e4cbf55a679a42c244cba39cee463d99ce507ecc9fafc4cb4e0a133e0"
+          "bytes": 14386,
+          "sha256": "123ef128ea5ccc01a4b1ac212ef5567f21e9c13d3d240609780beeb3200c49aa"
         },
         {
           "path": "scripts/generate_report.py",
-          "bytes": 13173,
-          "sha256": "d90ec4cfc2dd539564edd332880fb7561309a1f0097d082de88e3101d6c8031e"
+          "bytes": 12847,
+          "sha256": "13df7118a3c50c83c4c3250a606d5f2b20b25a3d44cbc392b3d669ec75281453"
         },
         {
           "path": "scripts/improve_description.py",
-          "bytes": 11363,
-          "sha256": "09425704c5717656fffd346ba075a390bb55d494dd1082bccd4fe2423117fa05"
+          "bytes": 11116,
+          "sha256": "87d864570220b699fac52da309d2d6efdb060647bfebc74f768128e646accf80"
         },
         {
           "path": "scripts/package_skill.py",
-          "bytes": 4370,
-          "sha256": "2cd9a9891844516fd30466eae30e4a9b9a199802522de3fb12f59a063fba58ab"
+          "bytes": 4234,
+          "sha256": "1a33059b0db1ef73375d46d513e5ea81369d2e8838c970597b0d52ddef8d1c0f"
         },
         {
           "path": "scripts/quick_validate.py",
-          "bytes": 4074,
-          "sha256": "99f76b23da5882ccc9301890e4c31837e4a9262bd1a9a75dc729df0b12459d52"
+          "bytes": 3972,
+          "sha256": "67cf5703402013936c8fb75ad6a1afecd8841d45cc5e606b634eb05825fde365"
         },
         {
           "path": "scripts/run_eval.py",
-          "bytes": 11774,
-          "sha256": "252ac58feedf233673d6a605661158db20806f724c7d1dd32c92ae316b24ef67"
+          "bytes": 11464,
+          "sha256": "43e3b8f80dbf69c343967ba77e268fae991d9fa3ed68b32a0ff02532cd48657f"
         },
         {
           "path": "scripts/run_loop.py",
-          "bytes": 13933,
-          "sha256": "85b36782ec856e066257cf8e917606945e6df098428005e17f8d60a5b6789c29"
+          "bytes": 13605,
+          "sha256": "7bd6f674203168520517eec94c55f493c0d154339b061b4d7c0f0dad187d0f21"
         },
         {
           "path": "scripts/utils.py",
-          "bytes": 1708,
-          "sha256": "b396f920bfbb422822427d800656ab125876e1e42ae242ed3c9380338f9d0833"
+          "bytes": 1661,
+          "sha256": "3af8ae62c40c73ab712207436a0d9a981e845f25c5a7040229eb189cc8e45bb1"
         },
         {
           "path": "SKILL.md",
-          "bytes": 33653,
-          "sha256": "e030e7685e26283b4a76f5202aa3ae8516fb41dde799be5ae8ea6393ec009fe9"
+          "bytes": 33168,
+          "sha256": "dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf"
         }
       ]
     },
@@ -733,42 +733,42 @@
       "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.",
       "path": "skills/slack-gif-creator/SKILL.md",
       "origin": "anthropics/skills",
-      "revision": "7e760607ca4baf2cd00917a5110f20ebdcca58edab7351225a9b3d16fc7b55b7",
+      "revision": "3c55fd0980fce5c065cbdc14ecd1dc462403dcf88bec89989e32b19472d7e8f4",
       "files": [
         {
           "path": "core/easing.py",
-          "bytes": 6499,
-          "sha256": "241adbc2d649a1e762615fe5f4e56593b3b5a52e28f6c9dda492588d7e02d653"
+          "bytes": 6265,
+          "sha256": "60bc943449802541f0f0881a874faa7ef408aaaf0b758fde756664ada7740452"
         },
         {
           "path": "core/frame_composer.py",
-          "bytes": 4724,
-          "sha256": "0b3e5561b238fa804b8443af8a65c3b6cb8e5286e83f7ae611217ea5c2388fae"
+          "bytes": 4548,
+          "sha256": "a127ea8f2a58893ea10a5c7b5cab4e2010af6515adc538676eb0cc14f5a03985"
         },
         {
           "path": "core/gif_builder.py",
-          "bytes": 10116,
-          "sha256": "a47a2cda9505e5e7f25cd0dd1c53a0bdb88193ddb1eea2161f87541c1fb390f2"
+          "bytes": 9847,
+          "sha256": "b6f50d738c491ee0438a2e86e897f71cdab9792494ba4605f140befb0bddbf89"
         },
         {
           "path": "core/validators.py",
-          "bytes": 3921,
-          "sha256": "83d43a5884187fc7a1e309acfd3b91ccfb4b7e70581b855718f1cdb6e9ebbece"
+          "bytes": 3785,
+          "sha256": "56bd19e3aae05f8387d78ec8185d6098b3dc909d1fa041211753da37212528a3"
         },
         {
           "path": "LICENSE.txt",
-          "bytes": 11546,
-          "sha256": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64"
+          "bytes": 11345,
+          "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
         },
         {
           "path": "requirements.txt",
-          "bytes": 69,
-          "sha256": "46f28d66846632623a1a83ad36613fa241c96abef1fe514e6496de99306a0d33"
+          "bytes": 66,
+          "sha256": "edc7108a0c6b56183566c71ee96830f6dc791e3b41952112d9cb56b33a6bd757"
         },
         {
           "path": "SKILL.md",
-          "bytes": 8095,
-          "sha256": "561c85ffeab639a1e84bb51cfc49f66e868a2a4c4b8945bf77b7bdaeca145a7d"
+          "bytes": 7841,
+          "sha256": "2efca615ce55a3edd8fc05c779068a8085816617991987e446606403cd3abb22"
         }
       ]
     },
@@ -778,17 +778,17 @@
       "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
       "path": "skills/theme-factory/SKILL.md",
       "origin": "anthropics/skills",
-      "revision": "7075041dfbf0bfece32a7d5ca1026ee518fba71c9b2c9fba6e23ec7dca385ff4",
+      "revision": "01543fc34c7ae66c80e570b87dcb037f57b91574ab87e59e9a164d588dd21e6f",
       "files": [
         {
           "path": "LICENSE.txt",
-          "bytes": 11546,
-          "sha256": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64"
+          "bytes": 11345,
+          "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
         },
         {
           "path": "SKILL.md",
-          "bytes": 3183,
-          "sha256": "7c765e6626bf61eca30224ceeb0da51ac003c7c2f1c1743ace9b3baa305ea632"
+          "bytes": 3124,
+          "sha256": "c35893e221e28895c52143cc11bf30e41a44817796b39d4b15727dadc9796552"
         },
         {
           "path": "theme-showcase.pdf",
@@ -797,53 +797,53 @@
         },
         {
           "path": "themes/arctic-frost.md",
-          "bytes": 563,
-          "sha256": "4ca393c5a61d4400f4e3f2ab79bb52a547568b04b60ac1227e254947b4842b41"
+          "bytes": 544,
+          "sha256": "868a75a8fb5b2a61d0f0ab87c437fe632d3cbab6371c418f06aa2816ac109ae0"
         },
         {
           "path": "themes/botanical-garden.md",
-          "bytes": 538,
-          "sha256": "b5bc2b394e6e9543267ba34445b6202157acbd3a68adaea94891695d52f44950"
+          "bytes": 519,
+          "sha256": "222cb8e7496abc9b75b29453c809fb9839e7e4b01fa45deecdd896b38d087765"
         },
         {
           "path": "themes/desert-rose.md",
-          "bytes": 515,
-          "sha256": "6f0a7b6e4c792c98a6b2fa3d16683e5147d81c44b426bd93f059358ca94725fd"
+          "bytes": 496,
+          "sha256": "bd065b8629be3b64655183927e248e3d892a27b8d184b009cfba89c96102744f"
         },
         {
           "path": "themes/forest-canopy.md",
-          "bytes": 525,
-          "sha256": "b05f11b64e22b6291b8b5841db1d06a68a6b3910865f1aadd5f72f6a9de1f841"
+          "bytes": 506,
+          "sha256": "ecb722efa24688e808b5bf323c334ca2349e989cfddd72ce8400ce5d4c4bd3e7"
         },
         {
           "path": "themes/golden-hour.md",
-          "bytes": 547,
-          "sha256": "182c7db9217ae7f8e4cd2608c80a41a10538f1d904b4e78c45238efff59ae32a"
+          "bytes": 528,
+          "sha256": "3444a00df971d3c2f06b665e21a2e9eb5d7d7d6f6281f2758773b8345776a139"
         },
         {
           "path": "themes/midnight-galaxy.md",
-          "bytes": 532,
-          "sha256": "8c133bbb26924bd47d432f7300176610bc3337737483ee5b6d70b10c5482a1ef"
+          "bytes": 513,
+          "sha256": "0e134c4c0324df41e34ac314269aa6829cd378cf3c304b31858d0cd158d2f944"
         },
         {
           "path": "themes/modern-minimalist.md",
-          "bytes": 568,
-          "sha256": "839f95ff8dfc5699e93ba463839aa24ef057dc49a94b8ef369adec05bf4021fc"
+          "bytes": 549,
+          "sha256": "b8bc572b75948d4df69c401af703b9262ed6820a3ceb270da30a529e92763614"
         },
         {
           "path": "themes/ocean-depths.md",
-          "bytes": 574,
-          "sha256": "062fcb48d08ab8a2fb8c75e8e49d69eb1b7869d80de6d2b6aaa1089b33f28934"
+          "bytes": 555,
+          "sha256": "a7ad8eec85341dbfcb2665da827a4b6a4baee08ab3335ac02421f18e6b46b2e2"
         },
         {
           "path": "themes/sunset-boulevard.md",
-          "bytes": 577,
-          "sha256": "5c5d442403b0736615824fa8375b745f906265262dc0e80c4167a9528fc0ddbc"
+          "bytes": 558,
+          "sha256": "658af11ab04be4923692571081ffb42a428141ae537703117b9236d9f8ee22a3"
         },
         {
           "path": "themes/tech-innovation.md",
-          "bytes": 566,
-          "sha256": "953b7bde08a782266b511a70bf55d4365897bc30835e4c214a46bb6734b4b8dd"
+          "bytes": 547,
+          "sha256": "183648163026dd5eeba3df5effa335b55ba333c3ee1fe215278605e55f40a52a"
         }
       ]
     },
@@ -853,37 +853,37 @@
       "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
       "path": "skills/webapp-testing/SKILL.md",
       "origin": "anthropics/skills",
-      "revision": "97c9cacb6593085be0a879feed5f09a11701016aa08debd81840b76fa33adfc4",
+      "revision": "8e753c6ec5d5d8ba5402972f6356120f5a5365620d9885ada3fea3dabd6b3f6a",
       "files": [
         {
           "path": "examples/console_logging.py",
-          "bytes": 1061,
-          "sha256": "f06fbca7cdfa44ecf5bae40813b30fc758ec3280af1aab5586aa2dd384db7ad6"
+          "bytes": 1027,
+          "sha256": "ea46877289acb82da7e7ce59d0bc37c8977cd57e2a006d0c88d7a1c625bf95da"
         },
         {
           "path": "examples/element_discovery.py",
-          "bytes": 1502,
-          "sha256": "7e99c7caf1593a75a8b2e36847128c41962fefc604f7947426581c2b9fc2361b"
+          "bytes": 1463,
+          "sha256": "d63c89604a22f8845d724e95dda45db49b1bf57c25ce0a83afbb7b8da3d402f0"
         },
         {
           "path": "examples/static_html_automation.py",
-          "bytes": 985,
-          "sha256": "6633d0b7c3b3bef31e6baa9cef6fac57490767ee481702fe11c281d8d013b769"
+          "bytes": 953,
+          "sha256": "9d533aafb875ee3ab8b8ebf8f5b9003ac8d999da3d09b285cce252e623140064"
         },
         {
           "path": "LICENSE.txt",
-          "bytes": 11546,
-          "sha256": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64"
+          "bytes": 11345,
+          "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
         },
         {
           "path": "scripts/with_server.py",
-          "bytes": 3798,
-          "sha256": "529b5f10f6ecf2e6234747be6d6601be7ef9011ee29a3eee0879e7823f608238"
+          "bytes": 3693,
+          "sha256": "b0dcf4918935b795f4eda9821579b9902119235ff4447f687a30286e7d0925fd"
         },
         {
           "path": "SKILL.md",
-          "bytes": 4008,
-          "sha256": "8bc27790f6e6dfc2bfa6692326d4518baacf6a31dcc646d963c729adad2f7e34"
+          "bytes": 3913,
+          "sha256": "51b7349e77ec63b7744a6f63647e7566a0b4d2e301121cc10e8c2113af6556a2"
         }
       ]
     }

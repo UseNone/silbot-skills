@@ -36,6 +36,11 @@ def build():
         for file in sorted(directory.rglob("*")):
             if file.is_file() and not file.is_symlink():
                 data = file.read_bytes()
+                try:
+                    data.decode("utf-8")
+                    data = data.replace(b"\r\n", b"\n")
+                except UnicodeDecodeError:
+                    pass
                 files.append({"path": file.relative_to(directory).as_posix(), "bytes": len(data), "sha256": hashlib.sha256(data).hexdigest()})
         entries.append({"id": directory.name, "name": metadata(content, "name", directory.name),
             "description": metadata(content, "description", ""), "path": skill.relative_to(ROOT).as_posix(),
