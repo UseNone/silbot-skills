@@ -1,0 +1,891 @@
+{
+  "version": 1,
+  "repository": "UseNone/silbot-skills",
+  "skills": [
+    {
+      "id": "algorithmic-art",
+      "name": "algorithmic-art",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+      "path": "skills/algorithmic-art/SKILL.md",
+      "origin": "anthropics/skills",
+      "revision": "607428016f1505a3f1b88ef872bdd5dbd5ac180fee1f07903ef20ffee3c64a74",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 11546,
+          "sha256": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 20173,
+          "sha256": "6688fc81bb2051d3f234385b50ce160834eb0b0510ed8a5816cc412c1d28c352"
+        },
+        {
+          "path": "templates/generator_template.js",
+          "bytes": 8048,
+          "sha256": "d4a1d449cbfb92b96009c8f2ad3b1c6cf6215d6ce75d68cf44a1aa7681077e88"
+        },
+        {
+          "path": "templates/viewer.html",
+          "bytes": 21442,
+          "sha256": "281d5559d06b93ff5c55a69163dd235fa91b8dab52870cd3260e4a9fccd46480"
+        }
+      ]
+    },
+    {
+      "id": "canvas-design",
+      "name": "canvas-design",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "path": "skills/canvas-design/SKILL.md",
+      "origin": "anthropics/skills",
+      "revision": "ebd3ceb5ca90b27f4a5d221c3a1b8f35ac932318a10032c246d8279d659965e5",
+      "files": [
+        {
+          "path": "canvas-fonts/ArsenalSC-OFL.txt",
+          "bytes": 4466,
+          "sha256": "7a87a0c469fedc802e3acef550db9a728f621275984b46c6c51e731d7212520a"
+        },
+        {
+          "path": "canvas-fonts/ArsenalSC-Regular.ttf",
+          "bytes": 165848,
+          "sha256": "65e6f89df58f68fd905b3add34a79dd6106aa3b3044df0dad9676fff53d504b9"
+        },
+        {
+          "path": "canvas-fonts/BigShoulders-Bold.ttf",
+          "bytes": 94528,
+          "sha256": "b43bcd198b9fdf717dd42aa61a34dba32e01aceaeae659d689afd0ca52c37ea2"
+        },
+        {
+          "path": "canvas-fonts/BigShoulders-OFL.txt",
+          "bytes": 4490,
+          "sha256": "9ce6294be745093338c51e62d7efaddbf32b90ac9a7ffde8a12ce92e0413fe25"
+        },
+        {
+          "path": "canvas-fonts/BigShoulders-Regular.ttf",
+          "bytes": 94396,
+          "sha256": "18a879fc71978a4447150705caf880a9da3860083c259fd29e6dc03057b6842a"
+        },
+        {
+          "path": "canvas-fonts/Boldonse-OFL.txt",
+          "bytes": 4483,
+          "sha256": "f5fe122e06e26a0277b07d6f6d171a60156aef5fe138281538498cee767b6bd4"
+        },
+        {
+          "path": "canvas-fonts/Boldonse-Regular.ttf",
+          "bytes": 77168,
+          "sha256": "cc2e540604565c0f90a7d8d46194a2f42fc9c45512cd2e39bf03b50eb68c35a4"
+        },
+        {
+          "path": "canvas-fonts/BricolageGrotesque-Bold.ttf",
+          "bytes": 90952,
+          "sha256": "a737b146fe0d77ffe8a86e3cd16700dd431d3b1e420d4fd80e142cd68a1cb50d"
+        },
+        {
+          "path": "canvas-fonts/BricolageGrotesque-OFL.txt",
+          "bytes": 4496,
+          "sha256": "a093964b3ca71526ae129d0d5f39bc9dba905ae5ebeb72d741bb0d4ed2d5d5b0"
+        },
+        {
+          "path": "canvas-fonts/BricolageGrotesque-Regular.ttf",
+          "bytes": 90920,
+          "sha256": "972a6d098c9867ae131d0ea99e221e63976b11a19d4b931c2c7ace525674e4f6"
+        },
+        {
+          "path": "canvas-fonts/CrimsonPro-Bold.ttf",
+          "bytes": 107352,
+          "sha256": "48f191e38355c8db100eb3ce157c20f9302a3b9a37b44a660f77ecfce3986609"
+        },
+        {
+          "path": "canvas-fonts/CrimsonPro-Italic.ttf",
+          "bytes": 108828,
+          "sha256": "52318db3526b644e6efa60be0b3ca5a50e40fbe8bd026c261e0aa206f0772267"
+        },
+        {
+          "path": "canvas-fonts/CrimsonPro-OFL.txt",
+          "bytes": 4487,
+          "sha256": "fd2bc485bc16b876b09f97ab0a218092c0c78f533be0d7750aca9e9df9e3ab7b"
+        },
+        {
+          "path": "canvas-fonts/CrimsonPro-Regular.ttf",
+          "bytes": 106696,
+          "sha256": "48fad08cb1917a7b2f2c6fe5135d6c07743a6663cf7631ec4481108aaf081422"
+        },
+        {
+          "path": "canvas-fonts/DMMono-OFL.txt",
+          "bytes": 4485,
+          "sha256": "0f2c192cfa63e591f680392d1792ff06e52a76ef81f70841ccb0b36c11b61826"
+        },
+        {
+          "path": "canvas-fonts/DMMono-Regular.ttf",
+          "bytes": 48852,
+          "sha256": "f98ada968dc3b6b2c08d3f5caaf266977df0bfe0929372b93df5a06cf2ace450"
+        },
+        {
+          "path": "canvas-fonts/EricaOne-OFL.txt",
+          "bytes": 4504,
+          "sha256": "cb7900ec9382f84f51ec5c79b6cddd9c17892bc3a2e90bfb74d6d710bdabf5fd"
+        },
+        {
+          "path": "canvas-fonts/EricaOne-Regular.ttf",
+          "bytes": 24872,
+          "sha256": "db1d89e80e33a8a01beaaac7a85df582857d24a43f1e181461aa7ff5d701476a"
+        },
+        {
+          "path": "canvas-fonts/GeistMono-Bold.ttf",
+          "bytes": 78304,
+          "sha256": "75c0828d5c1ee44b9ef9f4df577bf41595ec362e2ea3f1e558590c9e92c7949d"
+        },
+        {
+          "path": "canvas-fonts/GeistMono-OFL.txt",
+          "bytes": 4481,
+          "sha256": "0acca17d633ecc7180aa12d8a60a95889d87a439cb83884597ff278046743dcb"
+        },
+        {
+          "path": "canvas-fonts/GeistMono-Regular.ttf",
+          "bytes": 78232,
+          "sha256": "a55c1b51cda4afeab9e471e7947b85a20f7c8831d7e6b1470c1b7fbdc0f0f15e"
+        },
+        {
+          "path": "canvas-fonts/Gloock-OFL.txt",
+          "bytes": 4474,
+          "sha256": "e5a3c37f36d4484c7818fad6953828f74168cc1218421c913006c84fd4d14c14"
+        },
+        {
+          "path": "canvas-fonts/Gloock-Regular.ttf",
+          "bytes": 95156,
+          "sha256": "e86b4ce66dbd3f1f83eee8db99ec96e0da1128c3f53df0e9b3b7472025dfe960"
+        },
+        {
+          "path": "canvas-fonts/IBMPlexMono-Bold.ttf",
+          "bytes": 136008,
+          "sha256": "dbd2a2fb024579438d6400a84e57579bfd2dbe67c306c8fd9fde92a61e4f2eea"
+        },
+        {
+          "path": "canvas-fonts/IBMPlexMono-OFL.txt",
+          "bytes": 4456,
+          "sha256": "0fc74640fdcd67c036e1fced58d7e4478897a333cd92b981115a3e324337577f"
+        },
+        {
+          "path": "canvas-fonts/IBMPlexMono-Regular.ttf",
+          "bytes": 133796,
+          "sha256": "ab08018ccd276b79fb2c636bb95b9c543598f9d50505fe92506fcb4dae7810cd"
+        },
+        {
+          "path": "canvas-fonts/IBMPlexSerif-Bold.ttf",
+          "bytes": 161000,
+          "sha256": "b8d294e9b5c5a0940f167c3ced0f7ef2e3f57082ca3ff096ef30e86e26c1c159"
+        },
+        {
+          "path": "canvas-fonts/IBMPlexSerif-BoldItalic.ttf",
+          "bytes": 169840,
+          "sha256": "da64b75f4284f53e7b5c71fa190a35b8bf3494fe19f1804c81c3a53340bca570"
+        },
+        {
+          "path": "canvas-fonts/IBMPlexSerif-Italic.ttf",
+          "bytes": 170004,
+          "sha256": "b11f1048745e715a55c9d837b3f10226ca3d78867b7db7251ddad8f98dcf0f38"
+        },
+        {
+          "path": "canvas-fonts/IBMPlexSerif-Regular.ttf",
+          "bytes": 160380,
+          "sha256": "77cd233a2af8dc6b1022faea3bb3b01f3c75af68bcf530cb6aeb15982ff3dbb7"
+        },
+        {
+          "path": "canvas-fonts/InstrumentSans-Bold.ttf",
+          "bytes": 68084,
+          "sha256": "444f85bf1c4b0e1ce1ca624f6be54bcd832207714ccaf4ea99ee531341683bdf"
+        },
+        {
+          "path": "canvas-fonts/InstrumentSans-BoldItalic.ttf",
+          "bytes": 70004,
+          "sha256": "3762f6cef95d6039489ad5ba5787d4c30f17a1ad01e9ac3c816ed69692722a68"
+        },
+        {
+          "path": "canvas-fonts/InstrumentSans-Italic.ttf",
+          "bytes": 69900,
+          "sha256": "78e85858e371b2cb4e18f617c10f0f937c0e12a0887ffee98555b24ed305b3a7"
+        },
+        {
+          "path": "canvas-fonts/InstrumentSans-OFL.txt",
+          "bytes": 4496,
+          "sha256": "6c98bea402c5bfed70c42c0d6fcc6a31ea793979537d1becf4a5dae65a26a34f"
+        },
+        {
+          "path": "canvas-fonts/InstrumentSans-Regular.ttf",
+          "bytes": 68028,
+          "sha256": "a22cb26e48fd79bcb01bf2fc92d36785474dce36d9c544ab0a8868c2657c4a87"
+        },
+        {
+          "path": "canvas-fonts/InstrumentSerif-Italic.ttf",
+          "bytes": 70868,
+          "sha256": "9c86e4d5a47b50224a2463a9eca8535835257c8e85c470c2c6b454b1af6f046e"
+        },
+        {
+          "path": "canvas-fonts/InstrumentSerif-Regular.ttf",
+          "bytes": 69312,
+          "sha256": "56ac3be03ac3ba283196b3e77850ab2ffcf56cfb6fd3212c5620109a972f8c99"
+        },
+        {
+          "path": "canvas-fonts/Italiana-OFL.txt",
+          "bytes": 4487,
+          "sha256": "3edefd97c07108eb7151fa6ed58fc7ce79bb697fc1fc50a1da25398d54cdf588"
+        },
+        {
+          "path": "canvas-fonts/Italiana-Regular.ttf",
+          "bytes": 27184,
+          "sha256": "15c4dd6ab8cf4a29ba8826f65edcbe2f6c266c557d34d081f25072dfd5605fd2"
+        },
+        {
+          "path": "canvas-fonts/JetBrainsMono-Bold.ttf",
+          "bytes": 114828,
+          "sha256": "a2349098b9e45419e7bf0e2958d6c4937a049dded37387b08be725be4c7615f3"
+        },
+        {
+          "path": "canvas-fonts/JetBrainsMono-OFL.txt",
+          "bytes": 4492,
+          "sha256": "4d9694c4844a13ea377458c3f98c90d2bf83d3c214612dcae2b7808406520708"
+        },
+        {
+          "path": "canvas-fonts/JetBrainsMono-Regular.ttf",
+          "bytes": 114904,
+          "sha256": "b6b1ff4ddefe36d7f2a6174e1d001cab374e594519ee9049af028d577b64c5f5"
+        },
+        {
+          "path": "canvas-fonts/Jura-Light.ttf",
+          "bytes": 154308,
+          "sha256": "c891a381df056b2c4dfe85841e911bf45da0890fa21a7b2692cbe5ea1f505e1e"
+        },
+        {
+          "path": "canvas-fonts/Jura-Medium.ttf",
+          "bytes": 154488,
+          "sha256": "c72965cb732a92872643819fd1734128238583cc36b116313859137a51d3368a"
+        },
+        {
+          "path": "canvas-fonts/Jura-OFL.txt",
+          "bytes": 4473,
+          "sha256": "707f27f18ff5c786e2b41f44873201b34c3a3694ca6ea4aa24cbb52cbd46fbc2"
+        },
+        {
+          "path": "canvas-fonts/LibreBaskerville-OFL.txt",
+          "bytes": 4542,
+          "sha256": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd"
+        },
+        {
+          "path": "canvas-fonts/LibreBaskerville-Regular.ttf",
+          "bytes": 147584,
+          "sha256": "2101302538d9e88adb679031c04623e4578b5745e89566284fd2c508d79acae0"
+        },
+        {
+          "path": "canvas-fonts/Lora-Bold.ttf",
+          "bytes": 133828,
+          "sha256": "7d74015e950c2fb66519c7295b8155621d22200ae2ca2a4c6b43ce3c490cac87"
+        },
+        {
+          "path": "canvas-fonts/Lora-BoldItalic.ttf",
+          "bytes": 140332,
+          "sha256": "152f87e71f5ddb60d5c57ecd9132807c947e65c42977193c9164e7c5a6690081"
+        },
+        {
+          "path": "canvas-fonts/Lora-Italic.ttf",
+          "bytes": 139328,
+          "sha256": "be627e595184e8afe521f08da0607eee613f1997d423bc8dadc5798995581377"
+        },
+        {
+          "path": "canvas-fonts/Lora-OFL.txt",
+          "bytes": 4516,
+          "sha256": "41cf75bf229a1435b7df209ac7419622516eff7e8cab79260fb0fb9b1cc8ced2"
+        },
+        {
+          "path": "canvas-fonts/Lora-Regular.ttf",
+          "bytes": 133888,
+          "sha256": "7ed00e7c9cdf16ab7e2fd2361fe45d4f0b61263cd60aae398b27b7ee08108827"
+        },
+        {
+          "path": "canvas-fonts/NationalPark-Bold.ttf",
+          "bytes": 79208,
+          "sha256": "69ac4c301c4a7233c6e602d12a92c54d7967b575f4449951c45ce773f7acff53"
+        },
+        {
+          "path": "canvas-fonts/NationalPark-OFL.txt",
+          "bytes": 4492,
+          "sha256": "29618a33c9871519e77e75f7db9df6ba894b9f2208d97975ba419d3f6e46d9f7"
+        },
+        {
+          "path": "canvas-fonts/NationalPark-Regular.ttf",
+          "bytes": 76424,
+          "sha256": "a477338b7e18308d476650dfe31235ef86a883572665e56ffb5fb80f82009b58"
+        },
+        {
+          "path": "canvas-fonts/NothingYouCouldDo-OFL.txt",
+          "bytes": 4456,
+          "sha256": "179d94a7a42ce98cc0ef2bfad604b77e9b0a9cc03e6a9ae8844844e3028d04b2"
+        },
+        {
+          "path": "canvas-fonts/NothingYouCouldDo-Regular.ttf",
+          "bytes": 32020,
+          "sha256": "d866f985896d3280f4fce72db7e17302c24a0c1fdb0699b6b5ed3af14f944d57"
+        },
+        {
+          "path": "canvas-fonts/Outfit-Bold.ttf",
+          "bytes": 55392,
+          "sha256": "6654b93d21301ec61887d3cedd6c11d9df1b1dfb63f9cf45ac7995f6e2235ab1"
+        },
+        {
+          "path": "canvas-fonts/Outfit-OFL.txt",
+          "bytes": 4482,
+          "sha256": "8fc6af31312082959cc8297b30e04d94ff457faecc9fb0aeeb8906bf448f20e6"
+        },
+        {
+          "path": "canvas-fonts/Outfit-Regular.ttf",
+          "bytes": 54912,
+          "sha256": "f24945365147c9e783e91d8649959b59be6b00c9ee4ecd2f6b33afbb2dd871fe"
+        },
+        {
+          "path": "canvas-fonts/PixelifySans-Medium.ttf",
+          "bytes": 51072,
+          "sha256": "38397504f71c122b03d234ea6f55118e3d5bdbddffd82bedddbd7755d3b3be82"
+        },
+        {
+          "path": "canvas-fonts/PixelifySans-OFL.txt",
+          "bytes": 4488,
+          "sha256": "34b5d28aebcb26adae3e1fb74842b5c6a3915fb721036ea2b3444f18954331dd"
+        },
+        {
+          "path": "canvas-fonts/PoiretOne-OFL.txt",
+          "bytes": 4459,
+          "sha256": "26f2bc9434e40e75d2378fd9a8125c16f5ee1d0e7bbdf14daabd7109f7d87a6d"
+        },
+        {
+          "path": "canvas-fonts/PoiretOne-Regular.ttf",
+          "bytes": 45244,
+          "sha256": "9cf265b139648b36b6c0afdfeb0bf27f7e66db9a16094bc40f644d8da05bc318"
+        },
+        {
+          "path": "canvas-fonts/RedHatMono-Bold.ttf",
+          "bytes": 34420,
+          "sha256": "7ef48353f4be5ddb90f000f6fad48f2b62b3e8c27d9818d8d45ff46c201065e0"
+        },
+        {
+          "path": "canvas-fonts/RedHatMono-OFL.txt",
+          "bytes": 4487,
+          "sha256": "3f7ee3287416a0a1b2f90f4230306098268efa63504fa12d6436acd994a69b68"
+        },
+        {
+          "path": "canvas-fonts/RedHatMono-Regular.ttf",
+          "bytes": 34488,
+          "sha256": "452fe826871b37539f5212b20c87cf30f82f58dd2741f1c96edd1dcbdc0db6b4"
+        },
+        {
+          "path": "canvas-fonts/Silkscreen-OFL.txt",
+          "bytes": 4487,
+          "sha256": "b841352f14bfc3e79b872ede3c05aa49ba816218a53cb2a07c6624ccf38a2ea1"
+        },
+        {
+          "path": "canvas-fonts/Silkscreen-Regular.ttf",
+          "bytes": 31960,
+          "sha256": "49567408600809e25147e9225ac4f37f410e2df45a750696c45027531fb65f1b"
+        },
+        {
+          "path": "canvas-fonts/SmoochSans-Medium.ttf",
+          "bytes": 59704,
+          "sha256": "dd76e6e77cce82f827a8654cd906e9ce58f3aaf78adda63c4a7f655b8ecb41f0"
+        },
+        {
+          "path": "canvas-fonts/SmoochSans-OFL.txt",
+          "bytes": 4489,
+          "sha256": "ed57f8cd1429e35d68ad4b3edb44b142e2245467a2f537bf05044ee015447438"
+        },
+        {
+          "path": "canvas-fonts/Tektur-Medium.ttf",
+          "bytes": 76248,
+          "sha256": "52bbe8c9b057b3d2da4eeace31a524b1ea26a1375ae34319cf6900ccc57a4c82"
+        },
+        {
+          "path": "canvas-fonts/Tektur-OFL.txt",
+          "bytes": 4478,
+          "sha256": "360ef927fe156e4c7d8d7b1900375594f7db95fc3e04c1f0ce8cbbc55bc76eb8"
+        },
+        {
+          "path": "canvas-fonts/Tektur-Regular.ttf",
+          "bytes": 75604,
+          "sha256": "162e1b36c4718c5b051b36c971ad7e50d341944f35618f480422ebbe72988f98"
+        },
+        {
+          "path": "canvas-fonts/WorkSans-Bold.ttf",
+          "bytes": 191304,
+          "sha256": "240d125fc9f8561363dc1ea3f513501253bd70942f41468f48f0b0cafb0c82e2"
+        },
+        {
+          "path": "canvas-fonts/WorkSans-BoldItalic.ttf",
+          "bytes": 175772,
+          "sha256": "a5b2cad813df0aaa7d16621f2e93b5117c25e9bc788bc9a3ad218e9d6348ce34"
+        },
+        {
+          "path": "canvas-fonts/WorkSans-Italic.ttf",
+          "bytes": 174280,
+          "sha256": "6b7f7002e0b0c8b261fe878658ef5551e3e59d9f6b609b04efb90dde1e2c1ada"
+        },
+        {
+          "path": "canvas-fonts/WorkSans-OFL.txt",
+          "bytes": 4490,
+          "sha256": "4f8cbaf2a5494148a8064db9b5eb7c23a0f9098683244803b11c0eec857b81a9"
+        },
+        {
+          "path": "canvas-fonts/WorkSans-Regular.ttf",
+          "bytes": 188916,
+          "sha256": "e67985a843df0d3cdee51a3d0f329eb1774a344ad9ff0c9ab923751f1577e2a4"
+        },
+        {
+          "path": "canvas-fonts/YoungSerif-OFL.txt",
+          "bytes": 4491,
+          "sha256": "0f15fb928a39deedb71e9198dbeece4403f827561b0cdbcff450aacbcf772212"
+        },
+        {
+          "path": "canvas-fonts/YoungSerif-Regular.ttf",
+          "bytes": 105136,
+          "sha256": "f8dc08f77abad753a00670af70756a8ace938e5c3f0b770f4f4c2071c4bd8fc6"
+        },
+        {
+          "path": "LICENSE.txt",
+          "bytes": 11546,
+          "sha256": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 12068,
+          "sha256": "7bebc4a2cf108c55c1e52bb96b1050dc1ab2f9492e9c2d43f1fe57f826728f4d"
+        }
+      ]
+    },
+    {
+      "id": "doc-coauthoring",
+      "name": "doc-coauthoring",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+      "path": "skills/doc-coauthoring/SKILL.md",
+      "origin": "anthropics/skills",
+      "revision": "8a0b46ce6666e5528f51bd9130df25be92aaf3a05f31b09447452abe5e87b6af",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "bytes": 16190,
+          "sha256": "acb9b89b228fb818ffe2f464e40b1cdbf6948b50ceeeb7378f0e5b9d78c996ad"
+        }
+      ]
+    },
+    {
+      "id": "frontend-design",
+      "name": "frontend-design",
+      "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+      "path": "skills/frontend-design/SKILL.md",
+      "origin": "anthropics/skills",
+      "revision": "65f0b5b24556d7efa4cf65ae18b4adac9d49c1d1d87f9f687342b53876fc2073",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 10351,
+          "sha256": "eb3d7b5485466acbd81f2b496f595ab637d2792e268206b27d99e793bdb67549"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 9461,
+          "sha256": "b8009ae690dfa69edc7f08bb8715f32db8817112cfa4388741dbaf876c237df8"
+        }
+      ]
+    },
+    {
+      "id": "internal-comms",
+      "name": "internal-comms",
+      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+      "path": "skills/internal-comms/SKILL.md",
+      "origin": "anthropics/skills",
+      "revision": "9732c4fdd719fca8a739423af891efb35bf98868d54bd2846f490aad2b290765",
+      "files": [
+        {
+          "path": "examples/3p-updates.md",
+          "bytes": 3320,
+          "sha256": "5ea581bce7bc7030e5d9b5f65c192fd9aa05db8460837c485057ee9ad1b4e736"
+        },
+        {
+          "path": "examples/company-newsletter.md",
+          "bytes": 3360,
+          "sha256": "408275de740b7a849df557abd2136dc4f689c9aaa35a76fe5549a745bcc1df09"
+        },
+        {
+          "path": "examples/faq-answers.md",
+          "bytes": 2395,
+          "sha256": "02808d0a5dc3c0fe03c6b03a4e291fbda51dfc970a91cc4f28a82faa62d16251"
+        },
+        {
+          "path": "examples/general-comms.md",
+          "bytes": 617,
+          "sha256": "c30fa95415e6b03b7501b9dcfbf4aa5a37494408c3b7bd8ae2a72e750dc456d2"
+        },
+        {
+          "path": "LICENSE.txt",
+          "bytes": 11546,
+          "sha256": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 1543,
+          "sha256": "c5c061ab25b33fab2358a9be53a5cc0d528ec7c3e8a29285a041ffc95d0d8947"
+        }
+      ]
+    },
+    {
+      "id": "learn-from-conversation",
+      "name": "Transformar aprendizados em skills",
+      "description": "Identificar procedimentos reutilizáveis nas conversas, correções e preferências explícitas do usuário e propor uma skill quando houver evidência suficiente.",
+      "path": "skills/learn-from-conversation/SKILL.md",
+      "origin": "silbot",
+      "revision": "2fa0dfbdb64db3184eebd3d775b186c70d1cd114034175cd4d1d0d72e147487c",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "bytes": 2439,
+          "sha256": "e13542c5e03d23af5fad6326f1321973c2024cb9c10e505774e0607781c384ee"
+        }
+      ]
+    },
+    {
+      "id": "learn-from-demonstration",
+      "name": "Aprender com demonstrações",
+      "description": "Transformar uma demonstração processada pelo SilBot em um procedimento reutilizável e persistente.",
+      "path": "skills/learn-from-demonstration/SKILL.md",
+      "origin": "silbot",
+      "revision": "d4b2a80d6e4b36347fb14703ec2424cc8a9fba965528c690a492808b1b93c48e",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "bytes": 5945,
+          "sha256": "18543a00369141daf245bc03061ba5db8604d7335a8bc64703cde4842096297b"
+        }
+      ]
+    },
+    {
+      "id": "mcp-builder",
+      "name": "mcp-builder",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "path": "skills/mcp-builder/SKILL.md",
+      "origin": "anthropics/skills",
+      "revision": "1bf89c3814ced62d9340c64aae104539a70fd51ce9d72502452a6e6ca456937e",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 11546,
+          "sha256": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64"
+        },
+        {
+          "path": "reference/evaluation.md",
+          "bytes": 22264,
+          "sha256": "830d9a3a69c9d6d01b638ce3497e0a7680b1d422d318929181a101f7d3816983"
+        },
+        {
+          "path": "reference/mcp_best_practices.md",
+          "bytes": 7579,
+          "sha256": "900b5c9ec725b594ea04270d27c33cc51a0c8e866f5cb7ad4f57fb48d3838380"
+        },
+        {
+          "path": "reference/node_mcp_server.md",
+          "bytes": 29716,
+          "sha256": "f03d7eb0be6849a8f4014e61463a3827f1e3efc38569c2cfc456a3bf69bacede"
+        },
+        {
+          "path": "reference/node_mcp_server_v2.md",
+          "bytes": 35918,
+          "sha256": "8f7429c82e9883cd8cad964dceca5d1d5aa06c3a92b2a1f27b8392dddbe9c514"
+        },
+        {
+          "path": "reference/python_mcp_server.md",
+          "bytes": 25817,
+          "sha256": "890a64d0949e5b40c639682cda46661311ab818fc03976884ce46f00e2eff462"
+        },
+        {
+          "path": "scripts/connections.py",
+          "bytes": 5026,
+          "sha256": "9db2f1ff6442010b131817c1ec127dcf29949c787e7d7948049145c0a39627a9"
+        },
+        {
+          "path": "scripts/evaluation.py",
+          "bytes": 12952,
+          "sha256": "0797ae0f3c50bfa5d7281ebc8bc936ac89f33450aca6a36b95c4862ca8c21482"
+        },
+        {
+          "path": "scripts/example_evaluation.xml",
+          "bytes": 1216,
+          "sha256": "4df64ca67ca193021364d4d148997b8821f392353dab73c852fa41cfaa822048"
+        },
+        {
+          "path": "scripts/requirements.txt",
+          "bytes": 31,
+          "sha256": "f53f4d884919bbc75bc971f62d196c6f0a443eccf2539f534fd2b66e0618c49d"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 11381,
+          "sha256": "323a42dcf2bd27b8dcd8e903f060414643c65987d77fce5af13f9357a4fba49d"
+        }
+      ]
+    },
+    {
+      "id": "skill-creator",
+      "name": "skill-creator",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+      "path": "skills/skill-creator/SKILL.md",
+      "origin": "anthropics/skills",
+      "revision": "fdd63f04c16e0bee8a861ad9ab8acacb167d60495058a48ed1549ff49642fb0d",
+      "files": [
+        {
+          "path": "agents/analyzer.md",
+          "bytes": 10650,
+          "sha256": "8ccce0d9755f7684277870e791ffb643b026d5dd4508e5c1bdc8dfec9e8532b5"
+        },
+        {
+          "path": "agents/comparator.md",
+          "bytes": 7489,
+          "sha256": "ee90af43eb0dbe2fdadbb96d01f9776f387ed5c529ce083c22b8bec4e3ae10d3"
+        },
+        {
+          "path": "agents/grader.md",
+          "bytes": 9272,
+          "sha256": "6ec1c6950fcafa3e00d5e845b2498c5ea3e8f7f012bd9c6abad25425f3ee619c"
+        },
+        {
+          "path": "assets/eval_review.html",
+          "bytes": 7204,
+          "sha256": "2cc6071b35ac897b17cf0388ce240fd959396f35f95a1f7d3e74a248dd060d0f"
+        },
+        {
+          "path": "eval-viewer/generate_review.py",
+          "bytes": 16836,
+          "sha256": "44d97a35be977331b13b04932927b3beb285862a173f0f15dd052d4f31de5c76"
+        },
+        {
+          "path": "eval-viewer/viewer.html",
+          "bytes": 46323,
+          "sha256": "46abd4e19e482b4aeebea24b135c2d88fb122a63346dbeab7fcecd83828a826d"
+        },
+        {
+          "path": "LICENSE.txt",
+          "bytes": 11546,
+          "sha256": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64"
+        },
+        {
+          "path": "references/schemas.md",
+          "bytes": 12491,
+          "sha256": "5ef5fd3c1ac7baae965b5bda6b4f2cf6a191a2d712c7fef2a12dde84573b4833"
+        },
+        {
+          "path": "scripts/__init__.py",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "scripts/aggregate_benchmark.py",
+          "bytes": 14787,
+          "sha256": "16c5a53e4cbf55a679a42c244cba39cee463d99ce507ecc9fafc4cb4e0a133e0"
+        },
+        {
+          "path": "scripts/generate_report.py",
+          "bytes": 13173,
+          "sha256": "d90ec4cfc2dd539564edd332880fb7561309a1f0097d082de88e3101d6c8031e"
+        },
+        {
+          "path": "scripts/improve_description.py",
+          "bytes": 11363,
+          "sha256": "09425704c5717656fffd346ba075a390bb55d494dd1082bccd4fe2423117fa05"
+        },
+        {
+          "path": "scripts/package_skill.py",
+          "bytes": 4370,
+          "sha256": "2cd9a9891844516fd30466eae30e4a9b9a199802522de3fb12f59a063fba58ab"
+        },
+        {
+          "path": "scripts/quick_validate.py",
+          "bytes": 4074,
+          "sha256": "99f76b23da5882ccc9301890e4c31837e4a9262bd1a9a75dc729df0b12459d52"
+        },
+        {
+          "path": "scripts/run_eval.py",
+          "bytes": 11774,
+          "sha256": "252ac58feedf233673d6a605661158db20806f724c7d1dd32c92ae316b24ef67"
+        },
+        {
+          "path": "scripts/run_loop.py",
+          "bytes": 13933,
+          "sha256": "85b36782ec856e066257cf8e917606945e6df098428005e17f8d60a5b6789c29"
+        },
+        {
+          "path": "scripts/utils.py",
+          "bytes": 1708,
+          "sha256": "b396f920bfbb422822427d800656ab125876e1e42ae242ed3c9380338f9d0833"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 33653,
+          "sha256": "e030e7685e26283b4a76f5202aa3ae8516fb41dde799be5ae8ea6393ec009fe9"
+        }
+      ]
+    },
+    {
+      "id": "slack-gif-creator",
+      "name": "slack-gif-creator",
+      "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.",
+      "path": "skills/slack-gif-creator/SKILL.md",
+      "origin": "anthropics/skills",
+      "revision": "7e760607ca4baf2cd00917a5110f20ebdcca58edab7351225a9b3d16fc7b55b7",
+      "files": [
+        {
+          "path": "core/easing.py",
+          "bytes": 6499,
+          "sha256": "241adbc2d649a1e762615fe5f4e56593b3b5a52e28f6c9dda492588d7e02d653"
+        },
+        {
+          "path": "core/frame_composer.py",
+          "bytes": 4724,
+          "sha256": "0b3e5561b238fa804b8443af8a65c3b6cb8e5286e83f7ae611217ea5c2388fae"
+        },
+        {
+          "path": "core/gif_builder.py",
+          "bytes": 10116,
+          "sha256": "a47a2cda9505e5e7f25cd0dd1c53a0bdb88193ddb1eea2161f87541c1fb390f2"
+        },
+        {
+          "path": "core/validators.py",
+          "bytes": 3921,
+          "sha256": "83d43a5884187fc7a1e309acfd3b91ccfb4b7e70581b855718f1cdb6e9ebbece"
+        },
+        {
+          "path": "LICENSE.txt",
+          "bytes": 11546,
+          "sha256": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64"
+        },
+        {
+          "path": "requirements.txt",
+          "bytes": 69,
+          "sha256": "46f28d66846632623a1a83ad36613fa241c96abef1fe514e6496de99306a0d33"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 8095,
+          "sha256": "561c85ffeab639a1e84bb51cfc49f66e868a2a4c4b8945bf77b7bdaeca145a7d"
+        }
+      ]
+    },
+    {
+      "id": "theme-factory",
+      "name": "theme-factory",
+      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+      "path": "skills/theme-factory/SKILL.md",
+      "origin": "anthropics/skills",
+      "revision": "7075041dfbf0bfece32a7d5ca1026ee518fba71c9b2c9fba6e23ec7dca385ff4",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 11546,
+          "sha256": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 3183,
+          "sha256": "7c765e6626bf61eca30224ceeb0da51ac003c7c2f1c1743ace9b3baa305ea632"
+        },
+        {
+          "path": "theme-showcase.pdf",
+          "bytes": 124310,
+          "sha256": "3e126eca9fe99088051f7cb984c97cedb31c7d9e09ce0ba5d61bd01e70a0d253"
+        },
+        {
+          "path": "themes/arctic-frost.md",
+          "bytes": 563,
+          "sha256": "4ca393c5a61d4400f4e3f2ab79bb52a547568b04b60ac1227e254947b4842b41"
+        },
+        {
+          "path": "themes/botanical-garden.md",
+          "bytes": 538,
+          "sha256": "b5bc2b394e6e9543267ba34445b6202157acbd3a68adaea94891695d52f44950"
+        },
+        {
+          "path": "themes/desert-rose.md",
+          "bytes": 515,
+          "sha256": "6f0a7b6e4c792c98a6b2fa3d16683e5147d81c44b426bd93f059358ca94725fd"
+        },
+        {
+          "path": "themes/forest-canopy.md",
+          "bytes": 525,
+          "sha256": "b05f11b64e22b6291b8b5841db1d06a68a6b3910865f1aadd5f72f6a9de1f841"
+        },
+        {
+          "path": "themes/golden-hour.md",
+          "bytes": 547,
+          "sha256": "182c7db9217ae7f8e4cd2608c80a41a10538f1d904b4e78c45238efff59ae32a"
+        },
+        {
+          "path": "themes/midnight-galaxy.md",
+          "bytes": 532,
+          "sha256": "8c133bbb26924bd47d432f7300176610bc3337737483ee5b6d70b10c5482a1ef"
+        },
+        {
+          "path": "themes/modern-minimalist.md",
+          "bytes": 568,
+          "sha256": "839f95ff8dfc5699e93ba463839aa24ef057dc49a94b8ef369adec05bf4021fc"
+        },
+        {
+          "path": "themes/ocean-depths.md",
+          "bytes": 574,
+          "sha256": "062fcb48d08ab8a2fb8c75e8e49d69eb1b7869d80de6d2b6aaa1089b33f28934"
+        },
+        {
+          "path": "themes/sunset-boulevard.md",
+          "bytes": 577,
+          "sha256": "5c5d442403b0736615824fa8375b745f906265262dc0e80c4167a9528fc0ddbc"
+        },
+        {
+          "path": "themes/tech-innovation.md",
+          "bytes": 566,
+          "sha256": "953b7bde08a782266b511a70bf55d4365897bc30835e4c214a46bb6734b4b8dd"
+        }
+      ]
+    },
+    {
+      "id": "webapp-testing",
+      "name": "webapp-testing",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+      "path": "skills/webapp-testing/SKILL.md",
+      "origin": "anthropics/skills",
+      "revision": "97c9cacb6593085be0a879feed5f09a11701016aa08debd81840b76fa33adfc4",
+      "files": [
+        {
+          "path": "examples/console_logging.py",
+          "bytes": 1061,
+          "sha256": "f06fbca7cdfa44ecf5bae40813b30fc758ec3280af1aab5586aa2dd384db7ad6"
+        },
+        {
+          "path": "examples/element_discovery.py",
+          "bytes": 1502,
+          "sha256": "7e99c7caf1593a75a8b2e36847128c41962fefc604f7947426581c2b9fc2361b"
+        },
+        {
+          "path": "examples/static_html_automation.py",
+          "bytes": 985,
+          "sha256": "6633d0b7c3b3bef31e6baa9cef6fac57490767ee481702fe11c281d8d013b769"
+        },
+        {
+          "path": "LICENSE.txt",
+          "bytes": 11546,
+          "sha256": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64"
+        },
+        {
+          "path": "scripts/with_server.py",
+          "bytes": 3798,
+          "sha256": "529b5f10f6ecf2e6234747be6d6601be7ef9011ee29a3eee0879e7823f608238"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 4008,
+          "sha256": "8bc27790f6e6dfc2bfa6692326d4518baacf6a31dcc646d963c729adad2f7e34"
+        }
+      ]
+    }
+  ]
+}
