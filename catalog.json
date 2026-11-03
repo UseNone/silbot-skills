@@ -38,8 +38,18 @@
       "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
       "path": "skills/canvas-design/SKILL.md",
       "origin": "anthropics/skills",
-      "revision": "bf5d4a16ba94d15984083ce47e2cd51168b36729d4cf35d4f8b18aa80003c898",
+      "revision": "b9b8d9df5ff2bc6a109cdf89499252d41ff7e785f3676311f2ef3f55fa8b2c9f",
       "files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 11345,
+          "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 11939,
+          "sha256": "a1f288079624402f30682753c1d43920b6664785698d21d3e7aa197450a6448b"
+        },
         {
           "path": "canvas-fonts/ArsenalSC-OFL.txt",
           "bytes": 4373,
@@ -444,16 +454,6 @@
           "path": "canvas-fonts/YoungSerif-Regular.ttf",
           "bytes": 105136,
           "sha256": "f8dc08f77abad753a00670af70756a8ace938e5c3f0b770f4f4c2071c4bd8fc6"
-        },
-        {
-          "path": "LICENSE.txt",
-          "bytes": 11345,
-          "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
-        },
-        {
-          "path": "SKILL.md",
-          "bytes": 11939,
-          "sha256": "a1f288079624402f30682753c1d43920b6664785698d21d3e7aa197450a6448b"
         }
       ]
     },
@@ -498,8 +498,18 @@
       "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
       "path": "skills/internal-comms/SKILL.md",
       "origin": "anthropics/skills",
-      "revision": "76970306905aa9f05aaef836660291949e49dc7f5bbd00c755e440f86b5db39d",
+      "revision": "a201a7d14bbeda6ed7baccf9e4c532f4a34657a4d344fe347c8a02b65e90af08",
       "files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 11345,
+          "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 1511,
+          "sha256": "067b7587a344a928fc6534ef66b1bcd591fc7c26d207ea7ca3334aeb678d6475"
+        },
         {
           "path": "examples/3p-updates.md",
           "bytes": 3274,
@@ -519,16 +529,6 @@
           "path": "examples/general-comms.md",
           "bytes": 602,
           "sha256": "4d3a4bb198a77626bcf018e96b2b45a2dbabed172d4ade0fcd70d23ae8a47a47"
-        },
-        {
-          "path": "LICENSE.txt",
-          "bytes": 11345,
-          "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
-        },
-        {
-          "path": "SKILL.md",
-          "bytes": 1511,
-          "sha256": "067b7587a344a928fc6534ef66b1bcd591fc7c26d207ea7ca3334aeb678d6475"
         }
       ]
     },
@@ -568,12 +568,17 @@
       "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
       "path": "skills/mcp-builder/SKILL.md",
       "origin": "anthropics/skills",
-      "revision": "bf0a5550b206aa6c77a9ddc427b25f29229c243f091aaf3aa87c4df27aca8d29",
+      "revision": "b721ba2860784e41954e77e0d50d389c7bc4adb34d4f063f88cbf39950535478",
       "files": [
         {
           "path": "LICENSE.txt",
           "bytes": 11345,
           "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 11129,
+          "sha256": "b483b56d6673134497e45489c317f26ae0f1429c194db0297e43073e17e6748c"
         },
         {
           "path": "reference/evaluation.md",
@@ -619,11 +624,6 @@
           "path": "scripts/requirements.txt",
           "bytes": 29,
           "sha256": "d5d7558b2368ecea9dfeed7d1fbc71ee9e0750bebd1282faa527d528a344c3c7"
-        },
-        {
-          "path": "SKILL.md",
-          "bytes": 11129,
-          "sha256": "b483b56d6673134497e45489c317f26ae0f1429c194db0297e43073e17e6748c"
         }
       ]
     },
@@ -633,8 +633,18 @@
       "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
       "path": "skills/skill-creator/SKILL.md",
       "origin": "anthropics/skills",
-      "revision": "9551f036c94f7ca348c950e4d44b1609f3571bca3aebe8dff652db50fbb386b3",
+      "revision": "dddd4e0d8e69029c75478663de5689594ee45d947838c05c17401333129a8dc1",
       "files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 11345,
+          "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 33168,
+          "sha256": "dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf"
+        },
         {
           "path": "agents/analyzer.md",
           "bytes": 10376,
@@ -664,11 +674,6 @@
           "path": "eval-viewer/viewer.html",
           "bytes": 44998,
           "sha256": "a53213426ee1100441d701a3a0d49cda7a842f992d2c36463f4d3cc0258575fa"
-        },
-        {
-          "path": "LICENSE.txt",
-          "bytes": 11345,
-          "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
         },
         {
           "path": "references/schemas.md",
@@ -719,11 +724,6 @@
           "path": "scripts/utils.py",
           "bytes": 1661,
           "sha256": "3af8ae62c40c73ab712207436a0d9a981e845f25c5a7040229eb189cc8e45bb1"
-        },
-        {
-          "path": "SKILL.md",
-          "bytes": 33168,
-          "sha256": "dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf"
         }
       ]
     },
@@ -733,8 +733,18 @@
       "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.",
       "path": "skills/slack-gif-creator/SKILL.md",
       "origin": "anthropics/skills",
-      "revision": "3c55fd0980fce5c065cbdc14ecd1dc462403dcf88bec89989e32b19472d7e8f4",
+      "revision": "8b87485dbb0f9afd74923cfff6f70f6b03a649551c93d6fa82791b81c1c0ca51",
       "files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 11345,
+          "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 7841,
+          "sha256": "2efca615ce55a3edd8fc05c779068a8085816617991987e446606403cd3abb22"
+        },
         {
           "path": "core/easing.py",
           "bytes": 6265,
@@ -756,19 +766,9 @@
           "sha256": "56bd19e3aae05f8387d78ec8185d6098b3dc909d1fa041211753da37212528a3"
         },
         {
-          "path": "LICENSE.txt",
-          "bytes": 11345,
-          "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
-        },
-        {
           "path": "requirements.txt",
           "bytes": 66,
           "sha256": "edc7108a0c6b56183566c71ee96830f6dc791e3b41952112d9cb56b33a6bd757"
-        },
-        {
-          "path": "SKILL.md",
-          "bytes": 7841,
-          "sha256": "2efca615ce55a3edd8fc05c779068a8085816617991987e446606403cd3abb22"
         }
       ]
     },
@@ -853,8 +853,18 @@
       "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
       "path": "skills/webapp-testing/SKILL.md",
       "origin": "anthropics/skills",
-      "revision": "8e753c6ec5d5d8ba5402972f6356120f5a5365620d9885ada3fea3dabd6b3f6a",
+      "revision": "87a30478e78e1ae6351610432e210a9fdae50aa59586ca529cf5cda4e06be3c4",
       "files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 11345,
+          "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 3913,
+          "sha256": "51b7349e77ec63b7744a6f63647e7566a0b4d2e301121cc10e8c2113af6556a2"
+        },
         {
           "path": "examples/console_logging.py",
           "bytes": 1027,
@@ -871,19 +881,9 @@
           "sha256": "9d533aafb875ee3ab8b8ebf8f5b9003ac8d999da3d09b285cce252e623140064"
         },
         {
-          "path": "LICENSE.txt",
-          "bytes": 11345,
-          "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
-        },
-        {
           "path": "scripts/with_server.py",
           "bytes": 3693,
           "sha256": "b0dcf4918935b795f4eda9821579b9902119235ff4447f687a30286e7d0925fd"
-        },
-        {
-          "path": "SKILL.md",
-          "bytes": 3913,
-          "sha256": "51b7349e77ec63b7744a6f63647e7566a0b4d2e301121cc10e8c2113af6556a2"
         }
       ]
     },
