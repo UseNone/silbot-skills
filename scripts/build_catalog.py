@@ -44,7 +44,7 @@ def build():
                 files.append({"path": file.relative_to(directory).as_posix(), "bytes": len(data), "sha256": hashlib.sha256(data).hexdigest()})
         entries.append({"id": directory.name, "name": metadata(content, "name", directory.name),
             "description": metadata(content, "description", ""), "path": skill.relative_to(ROOT).as_posix(),
-            "origin": "silbot" if directory.name.startswith("learn-from-") else "anthropics/skills",
+            "origin": "silbot" if (directory.name.startswith("learn-from-") or directory.name == "write-like-me") else "anthropics/skills",
             "revision": hashlib.sha256(json.dumps(files, sort_keys=True).encode()).hexdigest(), "files": files})
     (ROOT / "catalog.json").write_text(json.dumps({"version": 1, "repository": "UseNone/silbot-skills", "skills": entries}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Built {len(entries)} skills")

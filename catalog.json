@@ -886,6 +886,21 @@
           "sha256": "51b7349e77ec63b7744a6f63647e7566a0b4d2e301121cc10e8c2113af6556a2"
         }
       ]
+    },
+    {
+      "id": "write-like-me",
+      "name": "write-like-me",
+      "description": "Use when creating documents, emails, reports, proposals, presentations, or messages on the user's behalf to ensure they match the user's writing style. Skip minor edits and requests that explicitly do not want style matching.",
+      "path": "skills/write-like-me/SKILL.md",
+      "origin": "silbot",
+      "revision": "88f83b26361684445a8be669fdbe6806df276eeae7bc29026d959f0f8ef852c9",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "bytes": 5430,
+          "sha256": "45ee15bcc4b45bd1412e045d0c720fbdb99649216ff8ef8759e05aab0cb80a5d"
+        }
+      ]
     }
   ]
 }
